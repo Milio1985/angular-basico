@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 //declaraciones y exportaciones
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -25,7 +26,8 @@ import { ContadorModule } from './contador/contador.module';
     BrowserModule,
     HeroesModule,
     //importar aquí
-    ContadorModule
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
